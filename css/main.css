@@ -176,10 +176,12 @@ table {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .navigation__item {
+  .navigation__item, .navigation__item--link {
     font-size: 1.5rem;
     font-family: "aileronbold";
     font-weight: 300;
+    text-decoration: none;
+    color: white;
   }
   .navigation__item--logo {
     font-size: 1.8rem;
@@ -212,10 +214,12 @@ table {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .navigation__item {
+  .navigation__item, .navigation__item--link {
     font-size: 1.5rem;
     font-family: "aileronbold";
     font-weight: 300;
+    text-decoration: none;
+    color: white;
   }
   .navigation__item--logo {
     font-size: 1.8rem;
@@ -248,10 +252,12 @@ table {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .navigation__item {
+  .navigation__item, .navigation__item--link {
     font-size: 1.5rem;
     font-family: "aileronbold";
     font-weight: 300;
+    text-decoration: none;
+    color: white;
   }
   .navigation__item--logo {
     font-size: 1.8rem;
