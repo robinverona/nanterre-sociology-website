@@ -1,0 +1,209 @@
+// Reset
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'aileronbold';
+    src: url('../static/fonts/Aileron-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aileronregular';
+    src: url('../static/fonts/Aileron-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//breakpoints :
+$lg-min:1200px;
+$lg-max:1199px;
+
+$md-min:1024px;
+$md-max:1023px;
+
+$sm-min:700px;
+$sm-max:699px;
+
+$xs-min:360px;
+$xs-max:359px;
+
+// spacers
+$spacer:.5rem;
+$spacer-tiny: $spacer/2;
+$spacer-large:$spacer*2;
+$spacer-xl: $spacer-large*2;
+$spacer-xxl: $spacer-xl*2;
+
+// typos
+$font-titles: 'aileronbold';
+$font-content: 'aileronregular';
+
+$font-weight-light: 300;
+$font-weight-regular : 400;
+$font-weight-bold:700;
+
+$font-size-xxl:3rem;
+$font-size-xl: 2rem;
+$font-size-l: 1.8rem;
+$font-size-m: 1.5rem;
+$font-size-regular : 1.2rem;
+$font-size-s: 1rem;
+$font-size-xs: .8rem;
+
+// about sidebar
+
+$about-sidebar-width: 450px;
+
+// colors
+
+$color-60: rgba(255, 255, 255, 1);
+$color-30: rgba(0, 0, 0, 0.6);
+$color-10: #e4001f;
+
+
+/* MOBILE */
+@media (min-width: 299px) and (max-width: 1023px) {}
+
+/* TABLET */
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+/* DESKTOP */
+@media (min-width: 1200px) {}
